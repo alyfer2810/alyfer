@@ -2,13 +2,13 @@
 body {
     font-family: Arial,sans-serif;
     margin: 0;
-    background-color: #00ffff;
-    color: aquamarine;
+    background-color: #ffffff;
+    color: #333;
 }
 
 header {
-    background-color: darkcyan;
-    color: blueviolet;
+    background-color: #15cb31;
+    color: white;
     text-align: center;
     padding:  1.5rem 1rem;
 }
@@ -37,7 +37,7 @@ main {
 }
 
 .curiosidades-card {
-    background-color: blue;
+    background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 1rem;
@@ -50,12 +50,12 @@ main {
 }
 
 .curiosidades-card h3 {
-    color: darkcyan;
+    color: #0077cc;
 }
 
 footer {
-    background-color: darkcyan;
-    color: blueviolet;
+    background-color: #15cb31;
+    color: white;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
