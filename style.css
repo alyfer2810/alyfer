@@ -102,3 +102,8 @@ footer {
         width: 90%;
     }
 }
+.galeria {
+    display: flex;
+align-items: center;
+flex-direction: row;
+}
