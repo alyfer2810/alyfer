@@ -115,14 +115,7 @@ flex-direction: row;
 
 
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página de Abertura</title>
-  <style>
-    body, html {
+body, html {
       margin: 0;
       padding: 0;
       height: 100%;
@@ -168,20 +161,3 @@ flex-direction: row;
       from {opacity: 0;}
       to {opacity: 1;}
     }
-  </style>
-</head>
-<body>
-  <div class="splash-container">
-    <h1>Bem-vindo ao Meu Site</h1>
-    <p>Obrigado por visitar. Clique abaixo para entrar.</p>
-    <button onclick="entrarSite()">Entrar</button>
-  </div>
-
-  <script>
-    function entrarSite() {
-      // Redireciona para a página principal
-      window.location.href = "home.html"; // Altere para o seu destino real
-    }
-  </script>
-</body>
-</html>
