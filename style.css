@@ -103,6 +103,7 @@ footer {
     }
 }
 .galeria {
+    justify-content: center;
     display: flex;
 align-items: center;
 }
