@@ -102,12 +102,3 @@ footer {
         width: 90%;
     }
 }
-.galeria {
-    justify-content: center;
-    display: flex;
-align-items: center;
-}
-.video-section {
-    display: flex;
-    align-items: center;
-}
