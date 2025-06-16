@@ -56,3 +56,27 @@ section.curiosidades{
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
+
+section.curiosidade h2{
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+ul {
+    padding-left: 0;
+    margin:0 auto;
+    max-width: 600px;
+}
+
+ul li{
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+ul li a{
+    color: #2980b9;
+    text-decoration: none;
+}
+
+ul li a:hover
