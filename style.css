@@ -1,104 +1,30 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 body {
-    font-family: Arial,sans-serif;
-    margin: 0;
-    background-color: #ffffff;
-    color: #191970;
-}
-header {
-    background-color: 	#9400D3;
-    color: white;
-    text-align: center;
-    padding:  1.5rem 1rem;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #f5f5f5;
+   color: 333;
+   line-height: 1.6;
+   padding: 0 10px;
 }
 
-header h1{
-    margin: 0;
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
     font-size: 2rem;
 }
 
-nav {display: flex;
-justify-content: center;
-gap: 2rem;
-background-color: #333;
-padding: 0.5rem 0;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.hero {
-    background-image: url('imagem-destaque.jpg'); /* substitua pela sua imagem */
-    background-size: cover;
-    background-position: center;
-    height: 300px;
+nav ul {
+    list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px black;
 }
-
-.hero h2
-
-main {
-    max-width: 1000px;
-    margin: 2rem auto;
-    padding: 1rem;
-}
-
-.intro {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.curiosidades {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-}
-
-.curiosidades-card {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    width: 300px;
-    transition: transform 0.3s ease;
-}
-
-.curiosidades-card:hover {
-    transform: scale(1.05);
-}
-
-.curiosidades-card h3 {
-    color: 	#483D8B;
-}
-
-footer {
-    background-color: 	#9400D3;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-}
-
-/* responsividade */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 1.5rem;
-    }
-}
-    .curiosidades-card {
-        width: 90%;
-    }
-
